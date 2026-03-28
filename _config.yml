@@ -1,0 +1,14 @@
+title: Thinking Out Loud
+description: "Guanjie's notes on minds, machines, and the users between them"
+
+url: "https://LiYou0719.github.io"
+baseurl: "/blog"
+
+theme: jekyll-theme-cayman
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
