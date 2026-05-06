@@ -3,33 +3,25 @@ title: "Before the Defaults Solidify: Mapping the Future of UX Research"
 date: 2026-03-28
 ---
 
-UX research as a profession is under threat. Most practitioners know this. What fewer people are willing to say out loud is that the threat is not that users no longer matter. It is that the way we have defined "doing research" is increasingly hard to defend.
+UX research as a profession is under threat. Most practitioners know this, but fewer people are willing to say out loud that the threat is not that users no longer matter; it is that the way we have defined "doing research" is increasingly hard to defend.
 
-We now have the most powerful cognitive tools in history at our disposal. And yet most of what passes for innovation in UXR today is faster execution of the same old methods. AI-assisted note-taking. Automated synthesis. Synthetic participants standing in for real users, which is a shortcut that does not just cut corners, but cuts the thing that made research valuable in the first place.
+Most of what passes for innovation in UXR today is faster execution of the same old methods, such as AI-assisted note-taking and automated synthesis. But I don't think this has to be a historical moment wasted. Nobody asks whether coding is still relevant; developers have not disappeared, while the ability to build things spread. The same transformation is available to UX research. Not the disappearance of the practice, but the dissolution of its boundaries: who does it, when it happens, what form it takes, and what it is allowed to influence. If anything, research becomes more essential when more people are building things, as someone has to keep asking whether we are building in the right direction.
 
-But I don't think this has to be a historical moment wasted.
-
-Nobody asks whether coding is still relevant. What happened was not that developers disappeared. It is that the ability to build things spread. The practice did not shrink, yet its boundaries dissolved.
-
-I think the same transformation is available to user research. Not the disappearance of the practice, but the dissolution of its boundaries: who does it, when it happens, what form it takes, and what it is allowed to influence. If anything, research becomes more essential when more people are building things. Someone has to keep asking whether we are building in the right direction.
-
-The tools to make this possible already exist. What is missing is the imagination to use them for something genuinely new. This is my attempt to sketch what that might look like.
+The tools to make this possible already exist. What is missing is the imagination to use them for something genuinely new. 
 
 ---
 
-## The distinction I want to draw is not about tools, but assumptions.
+## The distinction I want to draw is not about tools, but assumptions
 
-Traditional UXR, however well-intentioned, was structured around a fundamental separation: researchers step outside the product, recruit participants, create controlled conditions, collect data, and bring findings back in. This separation was never ideal. It introduced artificiality, compliance problems, and a chronic lag between insight and action. We accepted these costs because we had no alternative.
+Traditional UXR, however well-intentioned, was structured around a fundamental separation: researchers step outside the product, recruit participants, create controlled conditions, collect data, and bring findings back in. This separation introduced artificiality, compliance problems, and a chronic lag between insight and action, but we accepted these costs because we had no alternative.
 
-LLMs don't just make that process faster. They make the separation itself optional. Consider the diary study: a method beloved for its ability to capture lived experience, and notorious for its compliance problem. Participants forget. They summarize instead of describe. They drop out. The workaround has always been to make the recording task easier. But the deeper fix is different: what if the research happened inside the flow the user was already in? Not a separate app, not a reminder to "log your experience," but a conversation that was already happening, now also listening.
+LLMs make the separation itself optional. Consider the diary study: a method beloved for its ability to capture lived experience, and notorious for its compliance problem: participants forget; they summarize instead of describe; they drop out. What if the research happened inside the LLM chat the user was already in? Not a separate app, not a reminder to "log your experience," but a conversation that was already happening, now also listening.
 
 The failure mode to watch for, which is already happening, is mistaking novelty for imagination. Synthetic participants are a useful example. Using AI models to stand in for users sounds radical, until you notice that the underlying framework is identical: recruit participants, conduct interviews, extract findings. We have just replaced humans with models.
 
 The cost of that substitution is not minor. User interviews are irreplaceable precisely because they surface what we don't know we don't know: the unexpected reaction, the mental model we never thought to ask about, the friction that does not show up in any existing dataset. A model trained on aggregate human behavior can only predict within the boundaries of what is already known. Interviewing it does not reduce your risk of building in the wrong direction. It just gives you the feeling that you have done your research.
 
-There is genuine value in the cognitive science of building such models. The process of asking "what is a mental model, and how should it shape a product" is worth pursuing seriously. But wrapping a RAG pipeline in an interview interface and calling it user research is a different thing entirely. It is LLM FOMO dressed up as methodology.
-
-Genuine reimagination means questioning the framework, not just the cast.
+There is genuine value in the cognitive science of building such models. The process of asking "what is a mental model, and how should it shape a product" is worth pursuing seriously. But wrapping a RAG pipeline in an interview interface and calling it UX research is merely LLM FOMO dressed up as methodology. Genuine reimagination requires questioning the framework, not just the cast.
 
 ---
 
@@ -45,11 +37,11 @@ The qual/quant binary is dissolving. AI-conducted interviews can operate at scal
 
 **LLM as Research Instrument**
 
-Beyond new methods, there is a more fundamental shift in where research happens. Research has always been extracted from context: bring users in, create conditions, collect data, bring findings back. LLMs make it possible to embed research inside the flows users are already in. A few directions are already visible: observing how users naturally unfold their thinking inside LLM interactions, particularly relevant for AI products themselves; meeting users inside existing habits to solve chronic compliance problems, like a diary study that happens in a conversation the user was already having; and generating interactive stimuli that let users react to concrete, explorable prototypes instead of abstract concepts they struggle to imagine. These are not the only possibilities. They share a common logic: research that does not require users to step outside their lives to participate.
+Beyond new methods, there is a more fundamental shift in where research happens, which no longer require users to step outside their lives to participate. A few directions are already visible: observing how users naturally unfold their thinking inside LLM interactions, particularly relevant for AI products themselves; meeting users inside existing habits to solve chronic compliance problems, like a diary study that happens in a conversation the user was already having; and generating interactive stimuli that let users react to concrete, explorable prototypes instead of abstract concepts they struggle to imagine. Of course, these are not the only possibilities.  
 
 **Research Efficiency and Existing Data Mining**
 
-Access has always been a limiting factor. Recruiting representative participants is slow, expensive, and competitive. Meanwhile, enormous volumes of user-generated content sit largely unmined: support conversations, community forums, product reviews. These are not a replacement for primary research. They are a way to spend primary research where it is irreplaceable, on the questions that cannot be answered any other way.
+Access has always been a limiting factor. Recruiting representative participants is slow, expensive, and competitive. Meanwhile, enormous volumes of user-generated content sit largely unmined: support conversations, community forums, product reviews. These are not a replacement for primary research, yet a way to spend primary research where it is irreplaceable, on the questions that cannot be answered any other way.
 
 **Longitudinal and Continuous Research**
 
@@ -65,7 +57,7 @@ Research produces tribal knowledge: insights that live in documents, slide decks
 
 **Knowledge Communication and Human Consumption**
 
-As research knowledge becomes structured enough to directly inform AI-assisted development, feeding into vibe coding workflows and shaping how products get built, it is easy to treat the problem as solved once the machine can use it. But humans still need to understand insights too, and that is a design problem that does not go away. Static reports and slide decks are passive formats that deliver a fixed rendering regardless of what the reader actually needs to understand. A more powerful model would be insights stored in structured form, rendered dynamically based on the question being asked, surfacing as a journey map in one context, a set of design constraints in another, or a conversational exploration in a third. The destination is insight that assembles itself around the problem at hand.
+As research knowledge becomes structured enough to directly feed into vibe coding workflows, humans still need to understand insights. Today's static reports and slide decks are passive formats that deliver a fixed rendering regardless of what the reader actually needs to understand. A more powerful model would be insights stored in structured form, rendered dynamically based on the question being asked, surfacing as a journey map in one context, a set of design constraints in another, or a conversational exploration in a third. The destination is insight that assembles itself around the problem at hand.
 
 **Knowledge Synthesis and Discovery**
 
@@ -95,11 +87,7 @@ As vibe coding has made building accessible to people who are not professional d
 
 Every area above carries a version of the same question: what can we actually trust? AI interviewers introduce new forms of response bias. Synthetic participants can only reflect what models already know. Mined UGC carries the biases of whoever chose to post. And even when the data is clean, the harder question remains: how strong does evidence need to be to justify action? Research findings have never automatically changed minds. Product teams have assumptions, timelines, and competing priorities. In an AI-assisted research world, where it becomes easier than ever to generate apparently rigorous findings, the discipline of asking "is this actually good enough evidence?" becomes more important, not less.
 
----
-
-This list is not complete. Some of these areas will turn out to be more interesting than they appear here; others may collapse into each other as the thinking matures. I expect to add to it, revise it, and sometimes be wrong about it.
-
-What I am more confident about is the underlying premise: the tools now exist to do something genuinely different with user research. The window for imagining what that looks like, before the defaults solidify and the lazy versions win, is open right now. I intend to work inside that window for a long time.
+And this list is not complete. Some of these areas will turn out to be more interesting than they appear here; others may collapse into each other as the thinking matures. I expect to add to it, revise it, and sometimes be wrong about it. What I am more confident about is the underlying premise: the tools now exist to do something genuinely different with user research. The window for imagining what that looks like, before the defaults solidify and the lazy versions win, is open right now. I intend to work inside that window for a long time.
 
 I will be writing about each of these areas in more depth, moving between observation and practice as I go. If any of this resonates, or if you think I have framed something incorrectly, I would like to hear from you.
 
