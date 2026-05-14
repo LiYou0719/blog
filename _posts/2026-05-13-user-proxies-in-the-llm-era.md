@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Build Defensible User Proxies with LLMs"
+title: "What Makes an LLM User Proxy Defensible"
 date: 2026-05-13
 ---
 
