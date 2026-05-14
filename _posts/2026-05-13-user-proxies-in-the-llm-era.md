@@ -43,7 +43,7 @@ What unites them as a category is not their form but their function: each is a s
 
 In the LLM era, the cost of making a user proxy has collapsed. You no longer need years of cognitive modeling expertise to produce something that “responds like a user.” (see Table 2) That reduction in friction is genuinely useful and genuinely dangerous. The important split is not whether a proxy is synthetic, but what kind of claim it is allowed to make.  
 
-**Prompt-based persona inference**
+### Prompt-based persona inference
 
 The [Anthropic PSM paper](https://alignment.anthropic.com/2026/psm/) makes it unsurprising that prompting or post-training can elicit particular LLM behavioral patterns. Indeed, LLM behavioral patterns are even steerable: In [game-theoretic tasks](https://arxiv.org/abs/2603.21398), activation steering can systematically shift LLM's strategic choices and verbal justifications. Behavior distributions are not useless; they are highly suitable for [engineering purposes](https://arxiv.org/pdf/2501.04410) where interpretive authority is not required (data augmentation, stress testing, [recommender system evaluation](https://arxiv.org/abs/2506.04551), etc). 
 
@@ -51,7 +51,7 @@ But that suitability does not transfer to UX research contexts. [Deepsona](https
 
 No wonder that both [NNGroup](https://www.nngroup.com/articles/synthetic-users/) and [IDEO](https://www.ideo.com/journal/the-case-against-ai-generated-users) reached the same conclusion after testing 'AI interviews' in practice: the outputs were too detached from real user behavior to support product decisions. They are optimistic where real users are ambivalent, and generic where real users are specific.  
 
-**Grounded LLMs as hypothesis tools**
+### Grounded LLMs as hypothesis tools
 
 On the other hand, [PersonaCite](https://arxiv.org/abs/2601.22288) and Park et al.‘s [generative agents](https://arxiv.org/abs/2411.10109) ground LLM-based user proxies in real individuals' data. Both constrain outputs to what that data supports, and achieve some form of claim check (see Table 2). What makes these approaches different from prompt-based persona inference is that their outputs are traceable to specific data, which means their limits are visible too.
 
